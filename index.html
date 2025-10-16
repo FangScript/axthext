@@ -18,10 +18,15 @@
               'fade-in-scale': {
                 '0%': { opacity: '0', transform: 'scale(0.95)' },
                 '100%': { opacity: '1', transform: 'scale(1)' },
+              },
+              'arc-rotate': {
+                '0%': { transform: 'rotate(0deg)' },
+                '100%': { transform: 'rotate(360deg)' },
               }
             },
             animation: {
               'fade-in-scale': 'fade-in-scale 0.2s ease-out forwards',
+              'arc-rotate': 'arc-rotate 40s linear infinite',
             }
           }
         }

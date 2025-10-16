@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import AutomationHero from './components/AutomationHero';
+import Integrations from './components/Integrations';
 import TrustedBy from './components/TrustedBy';
 import FhevmIntro from './components/FhevmIntro';
 import UseCases from './components/UseCases';
@@ -14,7 +14,7 @@ const App: React.FC = () => {
       <Header />
       <main>
         <Hero />
-        <AutomationHero />
+        <Integrations />
         <TrustedBy />
         <FhevmIntro />
         <UseCases />
